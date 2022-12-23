@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125em;
+  }
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .caja {
+    width: 18em;
+    padding: 1.3em;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 8px 30px 10px hsl(217, 54%, 11%);
+    border-radius: 1em;
+}
+
+/* imagen principal */
+
+.imagen {
+  min-width: 6em;
+  width: auto;
+}
+
+.imagen img {
+  border-radius: 0.4em;
+}
+
+/* texto y divs */
+.textos h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 0.8em 0em 0.6em 0em;
+}
+
+.textos p {
+  font-weight: 400;
+  color: grey;
+  padding: 0em 0em 1.2em 0em;
+  font-size: 1rem;
+}
+  
+  .divs {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    font-weight: 400;
+  }
+
+ .divs p {
+    display: flex;
+  }
+
+  .time-left {
+    font-size: 0.9rem;
+    color: hsl(215, 51%, 70%);
+  }
+
+  .time-left img {
+    margin-right: 0.5em;
+  }
+
+  .ethereum {
+    color: hsl(178, 100%, 50%);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
+
+  .ethereum img {
+    padding-right: 0.5em;
+  }
+
+
+/* creation part */
+
+  .creation {
+    display: flex;
+    padding: 0.8em 0em 0em 0em;
+    font-weight: 300;
+  }
+
+  .creation img {
+    width: 1.8em;
+    border: 1px solid white;
+    border-radius: 1em;
+  }
+
+  .creation p {
+    padding-left: 1em;
+    color:  hsl(215, 32%, 27%);
+    font-size: 1rem;
+  }
+
+  .creation p span {
+    color:hsl(0, 0%, 100%);
+  }
